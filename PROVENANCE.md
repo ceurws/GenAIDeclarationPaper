@@ -8,3 +8,4 @@ part of the method is marked as method.
 | date | tool and model | agent | contribution | taxonomy category or method | commit or issue | review |
 | --- | --- | --- | --- | --- | --- | --- |
 | 2026-10-16 | Claude Code, claude-opus-5-5 | Agent/Sotsog | repository scaffold: CEURART files, build workflow, empty main.tex, AGENTS.md, README, this log, data policy | Formatting assistance | initial commit | 👁️🧑 Wolfgang Fahl ❓ |
+| 2026-10-16 | Claude Code, claude-opus-5-5 | Agent/Sotsog | CI step showing the build log on failure; placeholder line in the verbatim abstract environment of ceurart | Formatting assistance | 80cae38, aa88114 | 👁️🧑 Wolfgang Fahl ❓ |
