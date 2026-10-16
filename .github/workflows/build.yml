@@ -39,5 +39,9 @@ jobs:
     - name: rebuild PDF and check in if successful 
       run: ./scripts/tex2pdf --github
 
+    - name: Show build log on failure
+      if: failure()
+      run: tail -n 60 main.build.log3 || cat main.build.log* || true
+
     - name: Push changes
       run: git push || echo "No changes to push"
