@@ -1,0 +1,112 @@
+% GenAIDeclarationPaper — technical report (skeleton)
+% Open source at https://github.com/ceurws/GenAIDeclarationPaper
+%
+% Target: technical report on Zenodo. Not peer-reviewed.
+% Experiment design: https://cr.bitplan.com/index.php/CEUR-WS_Declaration_on_Generative_AI_Check
+%
+% CEUR-WS 1-column style (ceurart). Do NOT use the twocolumn / hf options.
+% The report follows the CEUR-WS Policy on AI-Assisting Tools although it is
+% not published via CEUR-WS; see AGENTS.md.
+%
+% Sections are intentionally EMPTY until the authors write them.
+% The report must be self-contained: every term, class, research question
+% and method step is defined in the text; links only point to further material.
+%
+\documentclass{ceurart}
+% typographical quoting
+\newcommand{\tquote}[1]{``#1''}
+% footnote links
+\newcommand{\footnotelink}[2]{\href{#1}{#2}\footnote{#1}}
+\sloppy
+
+\begin{document}
+
+%% Rights management information (CC-BY is the CEUR-WS default)
+\copyrightyear{2026}
+\copyrightclause{Copyright for this paper by its authors.
+  Use permitted under Creative Commons License Attribution 4.0
+  International (CC BY 4.0).}
+
+%% Conference information
+\conference{Technical report, 2026}
+
+%% Title
+% TODO(authors): write the title.
+\title{Title to be written by the authors}
+\tnotemark[1]
+\tnotetext[1]{Technical report. This version has not been peer-reviewed.}
+
+%% Authors
+% Confirmed authors only. ORCIDs taken from the media wiki scholar pages.
+% Further co-authors are NOT listed until participation is confirmed.
+% AI agents are never authors (CEUR-WS HOWTOSUBMIT FAQ 15).
+\author[1,2]{Wolfgang Fahl}[%
+orcid=0000-0002-0821-6995,
+email=wf@bitplan.com,
+]
+\cormark[1]
+\address[1]{RWTH Aachen University, Computer Science i5, Aachen, Germany}
+\address[2]{BITPlan GmbH, Willich, Germany}
+\cortext[1]{Corresponding author.}
+
+%% Abstract (author-provided text).
+\begin{abstract}
+% TODO(authors)
+\end{abstract}
+
+%% Keywords
+\begin{keywords}
+% TODO(authors)
+\end{keywords}
+
+\maketitle
+
+\section{Introduction}\label{sec:introduction}
+% TODO(authors)
+
+\section{Background}\label{sec:background}
+% TODO(authors): CEUR-WS Policy on AI-Assisting Tools, GenAI Usage Taxonomy,
+% ceurtools and row 0 of the editor agreement; define every term used later.
+
+\section{Prior Art}\label{sec:priorart}
+% TODO(authors)
+
+\section{Research Questions and Hypotheses}\label{sec:rq}
+% TODO(authors): RQ1 to RQ4 and the classes A to D in the authors' own words.
+
+\section{Data}\label{sec:data}
+% TODO(authors): population, sample, seed, strata, weights.
+% No CEUR-WS PDFs are redistributed; see data/README.md.
+
+\section{Method}\label{sec:method}
+% TODO(authors): heading search, ceurtools baseline, local language model,
+% annotation and agreement, comparison; the agentic work and the provenance
+% notation of the repository are described here, in the text.
+
+\section{Results}\label{sec:results}
+% TODO(authors)
+
+\section{Self-Check}\label{sec:selfcheck}
+% TODO(authors): verdict of check-pdf-errors on this report's own PDF,
+% version pinned by date and checksum.
+
+\section{Threats to Validity}\label{sec:threats}
+% TODO(authors)
+
+\section{Conclusion}\label{sec:conclusion}
+% TODO(authors)
+
+%% Declaration on Generative AI (required by CEUR-WS, see
+%% https://ceur-ws.org/GenAI/Policy.html and https://ceur-ws.org/GenAI/Taxonomy.html).
+%% Finalized by the authors from PROVENANCE.md before release.
+%% Must name every tool and map each contribution to a taxonomy category.
+%% A language model used as a research instrument (RQ4) is described in
+%% Section Method and named here as such, not as writing assistance.
+\section*{Declaration on Generative AI}
+% TODO(authors)
+
+%% Bibliography
+\nocite{ceurws2024genaipolicy,ceurws2024genaitaxonomy}
+\bibliography{references}
+
+\end{document}
